@@ -7,7 +7,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-2xl font-bold text-white hover:text-blue-200 transition-colors">
-            🧮 CalcHub
+            🧮 Calculadorinhas
           </Link>
           <nav className="hidden md:flex space-x-6">
             <Link to="/" className="text-white/80 hover:text-white transition-colors">
@@ -15,6 +15,15 @@ const Header = () => {
             </Link>
             <Link to="/scientific" className="text-white/80 hover:text-white transition-colors">
               Científica
+            </Link>
+            <Link to="/basic" className="text-white/80 hover:text-white transition-colors">
+              Básica
+            </Link>
+            <Link to="/percentage" className="text-white/80 hover:text-white transition-colors">
+              Porcentagem
+            </Link>
+            <Link to="/bmi" className="text-white/80 hover:text-white transition-colors">
+              IMC
             </Link>
           </nav>
         </div>

@@ -10,65 +10,65 @@ const HomePage = () => {
       description: 'Operações matemáticas simples: soma, subtração, multiplicação e divisão.',
       icon: '🔢',
       path: '/basic',
-      available: false
+      available: true
     },
     {
       title: 'Calculadora de Porcentagem',
       description: 'Calcule porcentagens, descontos, aumentos e variações percentuais.',
       icon: '📊',
       path: '/percentage',
-      available: false
+      available: true
     },
     {
       title: 'Calculadora de IMC',
       description: 'Calcule seu Índice de Massa Corporal e veja sua classificação.',
       icon: '⚖️',
       path: '/bmi',
-      available: false
+      available: true
     },
     {
       title: 'Calculadora de Juros',
       description: 'Calcule juros simples e compostos para investimentos e empréstimos.',
       icon: '💰',
       path: '/interest',
-      available: false
+      available: true
     },
     {
       title: 'Conversor de Unidades',
       description: 'Converta entre diferentes unidades de medida: comprimento, peso, temperatura.',
       icon: '📏',
       path: '/converter',
-      available: false
+      available: true
     },
     {
       title: 'Calculadora de Data',
       description: 'Calcule diferenças entre datas, adicione ou subtraia dias.',
       icon: '📅',
       path: '/date',
-      available: false
+      available: true
     },
     {
       title: 'Calculadora de Área',
       description: 'Calcule áreas de diferentes formas geométricas.',
       icon: '📐',
       path: '/area',
-      available: false
+      available: true
     },
     {
       title: 'Calculadora de Volume',
       description: 'Calcule volumes de sólidos geométricos diversos.',
       icon: '📦',
       path: '/volume',
-      available: false
+      available: true
     }
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 ">
       {/* Hero Section */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-          CalcHub
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 ">
+          Calculadorinha 
         </h1>
         <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
           Sua central de calculadoras online. Resolva cálculos científicos, financeiros e do dia a dia.
